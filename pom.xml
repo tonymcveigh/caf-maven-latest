@@ -15,6 +15,42 @@
         <version>22-SNAPSHOT</version>
         <relativePath>../caf-maven</relativePath>
     </parent>
+    
+    <build>
+        <plugins>
+            <!-- move to using profiles, to enable a builder profile for deployment / tagging -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-scm-plugin</artifactId>
+                <version>${maven.scm.plugin}</version>
+                <configuration>
+                    <connectionType>developerConnection</connectionType>
+                    <includes>**</includes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+            </plugin>
+            <!-- Adding 1.8 compiler version, to use try-with-resources, this also matches
+            version used by corepolicy -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.plugin.version}</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>    
+    
+    <scm>
+        <url>git@github.hpe.com:tony-mcveigh/caf-maven-latest.git</url>
+        <connection>scm:git:git@github.hpe.com:tony-mcveigh/caf-maven-latest.git</connection>
+        <developerConnection>scm:git:git@github.hpe.com:tony-mcveigh/caf-maven-latest.git</developerConnection>
+    </scm>
 
     <ciManagement>
         <system>hudson</system>
