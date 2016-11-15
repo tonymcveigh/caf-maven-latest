@@ -22,7 +22,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-scm-plugin</artifactId>
-                <version>${maven.scm.plugin}</version>
+                <version>1.9.4</version>
                 <configuration>
                     <connectionType>developerConnection</connectionType>
                     <includes>**</includes>
@@ -31,17 +31,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-            </plugin>
-            <!-- Adding 1.8 compiler version, to use try-with-resources, this also matches
-            version used by corepolicy -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven.compiler.plugin.version}</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
+                <version>2.5.4.CUSTOMHP</version>
             </plugin>
         </plugins>
     </build>    
