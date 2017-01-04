@@ -6,7 +6,8 @@
     <artifactId>caf-maven-latest</artifactId>
     <version>12.23.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-<!--Added a comment-->
+<!--1. Added a comment-->
+<!--2. Added a comment-->    
     <parent>
         <groupId>com.hpe.caf</groupId>
         <artifactId>caf-maven</artifactId>
