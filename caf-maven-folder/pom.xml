@@ -7,13 +7,7 @@
     <version>12.23.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 <!--1. Added a comment-->
-<!--2. Added a comment--> 
-<!--3. Added a comment--> 
-<!--4. Added a comment--> 
-<!--5. Added a comment-->    
-<!--6. Added a comment-->   
-<!--7. Added a comment-->      
-    <!--8. Added a comment-->    
+  
     <parent>
         <groupId>com.hpe.caf</groupId>
         <artifactId>caf-maven</artifactId>
