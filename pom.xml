@@ -16,6 +16,7 @@
     
     <modules>
         <module>caf-maven-folder</module>
+        <module>caf-another-proj</module>
     </modules>
     
     <build>
