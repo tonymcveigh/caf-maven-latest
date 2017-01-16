@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.hpe.caf</groupId>
-    <artifactId>caf-maven-latest</artifactId>
+    <artifactId>caf-maven-folder</artifactId>
     <version>12.31.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 <!--1. Added a comment-->
