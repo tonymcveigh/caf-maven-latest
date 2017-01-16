@@ -20,6 +20,11 @@
         <relativePath>../caf-maven</relativePath>
     </parent>
     
+    <modules>
+        <module>caf-folder-one</module>
+        <module>caf-folder-two</module>
+    </modules>
+    
     <build>
         <plugins>
             <!-- move to using profiles, to enable a builder profile for deployment / tagging -->
