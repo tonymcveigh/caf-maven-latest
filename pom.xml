@@ -23,5 +23,17 @@
     <!-- Test3 -->
 <!--FROM CMD LINE -->
 <!--FROM CMD LINE2 -->
+        <distributionManagement>
+        <repository>
+            <id>HPEreleases</id>
+            <name>HPE Sunnyvale Artifactory Releases</name>
+            <url>http://16.30.182.48:8081/artifactory/lib-test</url>
+        </repository>
+        <snapshotRepository>
+            <id>HPEsnapshots</id>
+            <name>HPE Sunnyvale Artifactory Snapshots</name>
+            <url>http://16.30.182.48:8081/artifactory/lib-test</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
