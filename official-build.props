@@ -1,4 +1,0 @@
-NON_MAVEN_FILETYPES_TO_DEPLOY=rpm
-NON_MAVEN_ARTIFACTS_FOLDER_NAME=different
-NON_MAVEN_DEV_REPO=http://bel-artifactory.hpeswlab.net:8081/artifactory/lib-test
-NON_MAVEN_PREPROD_REPO=http://bel-artifactory.hpeswlab.net:8081/artifactory/lib-nightly
