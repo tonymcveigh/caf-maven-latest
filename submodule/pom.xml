@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+      <groupId>com.hpe.caf</groupId>
+      <artifactId>caf-maven-latest</artifactId>
+      <version>12.39.0-SNAPSHOT</version>
+    </parent>
+    <groupId>com.hpe.caf</groupId>
+    <artifactId>caf-submodule1</artifactId>
+    <version>12.39.0-SNAPSHOT</version>    
+    <packaging>pom</packaging>
+    
+    <ciManagement>
+        <system>hudson</system>
+        <url>http://cafbuilder.hpeswlab.net:8080/job/caf-maven-latest/</url>
+    </ciManagement>
+    <!-- Test00000000 -->
+    <!-- Test -->
+    <!-- Test3 -->   
+<!--FROM CMD LINE -->
+<!--FROM CMD LINE2 -->
+        <distributionManagement>
+        <repository>
+            <id>HPEreleases</id>
+            <name>HPE Sunnyvale Artifactory Releases</name>
+            <url>http://16.30.182.48:8081/artifactory/lib-test</url>
+        </repository>
+        <snapshotRepository>
+            <id>HPEsnapshots</id>
+            <name>HPE Sunnyvale Artifactory Snapshots</name>
+            <url>http://16.30.182.48:8081/artifactory/lib-test</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+</project>
