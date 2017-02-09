@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
     
     <modules>
-        <module>caf-submodule1</module>
+        <module>submodule</module>
     </modules>
     
     <ciManagement>
