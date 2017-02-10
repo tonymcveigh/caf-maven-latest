@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
     
     <parent>
-        <groupId>com.hpe.caf</groupId>
+        <groupId>com.hpe.caf.nn</groupId>
         <artifactId>caf-ninety-one</artifactId>
         <version>91.0.0-SNAPSHOT</version>
     </parent>    
