@@ -12,6 +12,11 @@
         <artifactId>submodule</artifactId>
         <version>12.44.0-SNAPSHOT</version>
     </parent>    
+    
+    <modules>
+        <module>dev7submodule</module>
+    </modules>
+    
     <ciManagement>
         <system>hudson</system>
         <url>http://cafbuilder.hpeswlab.net:8080/job/caf-maven-latest/</url>
