@@ -18,9 +18,7 @@
     <!-- Test00000000 -->
     <!-- Test -->
     <!-- Test3 -->   
-<!--FROM CMD LINE -->
-<!--FROM CMD LINE2 -->
-<!--FROM CMD LINE3-->    
+<!--FROM CMD LINE -->  
         <distributionManagement>
         <repository>
             <id>HPEreleases</id>
