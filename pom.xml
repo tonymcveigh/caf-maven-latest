@@ -20,6 +20,7 @@
     <!-- Test3 -->    
     <!-- Test4 -->  
     <!-- Test5 -->     
+    <!-- Test6 -->     
         <distributionManagement>
         <repository>
             <id>HPEreleases</id>
